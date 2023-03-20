@@ -27,11 +27,8 @@ int gameInit(void)
 /**
  * createWindow - creates a window
  * @title: title of the window
- * @x: x position of the window
- * @y: y position of the window
- * @w: width of the window
- * 
- * return: pointer to the window
+ *
+ * Return: pointer to the window
  */
 
 SDL_Window *createWindow(char *title)

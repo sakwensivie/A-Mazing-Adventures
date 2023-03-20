@@ -12,8 +12,8 @@ int main(void)
 	SDL_Event event;
 	int gameIsRunning = 1;
 
-    gameInit();
-    SDL_Window *window = createWindow("A-Mazing Adventures");
+	gameInit();
+	SDL_Window *window = createWindow("A-Mazing Adventures");
 
 	while (gameIsRunning)
 	{
