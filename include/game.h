@@ -12,4 +12,15 @@
 /*Third Party Libraries*/
 #include <SDL2/SDL.h>
 
+/*Custom Libraries*/
+
+/*Macros*/
+
+/*Structs*/
+
+/*Function Prototypes*/
+
+int gameInit(void);
+SDL_Window *createWindow(char *title);
+
 #endif
