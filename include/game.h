@@ -22,7 +22,7 @@
 
 /*gameInit.c*/
 int gameInit(void);
-SDL_Window *createWindow(char *title);
+SDL_Window *createWindow(const char *title);
 void quitGame(SDL_Window *window, SDL_Renderer *renderer);
 
 /*gameloop.c*/

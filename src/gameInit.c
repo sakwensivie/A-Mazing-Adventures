@@ -31,7 +31,7 @@ int gameInit(void)
  * Return: pointer to the window
  */
 
-SDL_Window *createWindow(char *title)
+SDL_Window *createWindow(const char *title)
 {
 	SDL_Window *window = NULL;
 
