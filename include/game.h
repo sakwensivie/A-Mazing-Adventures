@@ -20,9 +20,12 @@
 
 /*Function Prototypes*/
 
+/*gameInit.c*/
 int gameInit(void);
 SDL_Window *createWindow(char *title);
-void quitGame(SDL_Window *window);
+void quitGame(SDL_Window *window, SDL_Renderer *renderer);
+
+/*gameloop.c*/
 void gameLoop(void);
 
 #endif

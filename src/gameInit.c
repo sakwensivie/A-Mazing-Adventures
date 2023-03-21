@@ -54,8 +54,9 @@ SDL_Window *createWindow(char *title)
  *
  */
 
-void quitGame(SDL_Window *window)
+void quitGame(SDL_Window *window, SDL_Renderer *renderer)
 {
+	SDL_DestroyRenderer(renderer);
 	SDL_DestroyWindow(window);
 	SDL_Quit();
 }

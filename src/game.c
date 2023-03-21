@@ -14,7 +14,7 @@ int main(void)
 	SDL_Window *window = createWindow("A-Mazing Adventures");
 
 	gameLoop();
-	
-	quitGame(window);
+
+	quitGame(window, renderer);
 	return (0);
 }
