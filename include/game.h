@@ -22,5 +22,7 @@
 
 int gameInit(void);
 SDL_Window *createWindow(char *title);
+void quitGame(SDL_Window *window);
+void gameLoop(void);
 
 #endif

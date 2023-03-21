@@ -45,4 +45,18 @@ SDL_Window *createWindow(char *title)
 	return (window);
 }
 
+/**
+ * quitGame - quits the game after the game loop is exited
+ *
+ * @window: window to be freed
+ *
+ * Return: returns none.
+ *
+ */
+
+void quitGame(SDL_Window *window)
+{
+	SDL_DestroyWindow(window);
+	SDL_Quit();
+}
 
