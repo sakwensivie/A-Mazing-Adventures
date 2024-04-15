@@ -38,8 +38,8 @@ SDL_Window *createWindow(const char *title)
 	window = SDL_CreateWindow(title,
 	SDL_WINDOWPOS_CENTERED,
 	SDL_WINDOWPOS_CENTERED,
-	640,
-	420,
+	SCREEN_WIDTH,
+	SCREEN_HIEGHT,
 	SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE | SDL_WINDOW_OPENGL);
 
 	return (window);

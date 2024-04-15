@@ -1,6 +1,8 @@
 #ifndef GAME_H
 #define GAME_H
 
+
+
 /*Standard Libraries*/
 #include <stdio.h>
 #include <stdlib.h>
@@ -15,6 +17,11 @@
 /*Custom Libraries*/
 
 /*Macros*/
+#define SCREEN_HIEGHT 480
+#define SCREEN_WIDTH 640
+#define WORLD_WIDTH 10
+#define WORLD_HEIGHT 10
+#define PLAYER_FOV 60
 
 /*Structs*/
 
